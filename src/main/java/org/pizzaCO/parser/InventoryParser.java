@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 
-class InventoryParser{
+public class InventoryParser{
     private final String fileName;
     public InventoryParser(String fileName){
         this.fileName = fileName;

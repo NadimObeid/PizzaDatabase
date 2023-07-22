@@ -1,11 +1,11 @@
-Ingredient Name,Type,Price,Weight,Origin,CanCauseAllergy,TypesOfAllergies,Temperature
-Cheese,Classic,8.99,12.5,Italy,No,,2-8°C,20 Apr 1984
-Pepperoni,Meat,10.99,15.0,United States,No, ,-18°C,
-Pineapple,Classic,9.99,14.0,Hawaii,No,,,,
-Tofu,Vegan,12.99,13.5,United States,No,,,
-Gluten-Free,Specialty,11.99,12.0,Italy,Yes,Wheat,Room temperature,
-Sausage;Onion,Classic,11.99,15.5,Italy,No,,,
-Chicken,Meat,13.99,14.5,United States,No,,-18°C,
-Shrimp;Calamari;Mussels,Seafood,15.99,16.5,Italy,No,,-18°C,
-Mushrooms,Vegetarian,10.99,13.0,United States,No,,,
-Eggs;Wheat,Specialty,9.99,12.5,Italy,Yes,Dairy;Eggs;Gluten,2-8°C,
+Ingredient Name,Type,Price,Weight,Origin,CanCauseAllergy,TypesOfAllergies,Temperature, exp date
+Cheese,Classic,8.99,12.5,Italy,No,,2-8°C
+Pepperoni,Meat,10.99,15.0,United States,No, ,-18°C
+Pineapple,Classic,9.99,14.0,Hawaii,No,,,
+Tofu,Vegan,12.99,13.5,United States,No,,
+Gluten-Free,Specialty,11.99,12.0,Italy,Yes,Wheat,Room temperature
+Sausage;Onion,Classic,11.99,15.5,Italy,No,,
+Chicken,Meat,13.99,14.5,United States,No,,-18°C
+Shrimp;Calamari;Mussels,Seafood,15.99,16.5,Italy,No,,-18°C
+Mushrooms,Vegetarian,10.99,13.0,United States,No,,
+Eggs;Wheat,Specialty,9.99,12.5,Italy,Yes,Dairy;Eggs;Gluten,2-8°C

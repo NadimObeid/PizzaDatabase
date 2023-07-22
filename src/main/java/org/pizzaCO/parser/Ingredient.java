@@ -29,8 +29,6 @@ public class Ingredient {
         setTypeOfAllergy(att.get(6));
         setTemperature(att.get(7));
         setExpDate(att.get(8));
-
-
     }
 
 
@@ -69,7 +67,7 @@ public class Ingredient {
 
     public void setExpDate(String expDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMM uuuu");
-        ExpDate = expDate==""?LocalDate.now():LocalDate.parse(expDate,formatter);
+        ExpDate = Objects.equals(expDate, "") ?LocalDate.now():LocalDate.parse(expDate,formatter);
     }
 
     public String getName() {
@@ -81,7 +79,7 @@ public class Ingredient {
     }
 
     public double getPrice() {
-        return Price;
+        return Price*Weight;
     }
 
     public double getWeight() {
@@ -108,8 +106,4 @@ public class Ingredient {
         return ExpDate;
     }
 
-    @Override
-    public String toString() {
-        return att.toString();
-    }
 }
